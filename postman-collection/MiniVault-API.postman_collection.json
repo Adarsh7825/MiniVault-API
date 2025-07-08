@@ -1,0 +1,42 @@
+{
+    "info": {
+        "_postman_id": "e675a9ea-05eb-40c4-95c3-2f8bd7be52e8",
+        "name": "MiniVault-API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "25135861",
+        "_collection_link": "https://bold-crater-537295.postman.co/workspace/Mozo-Chat~d217811e-3926-4ba6-b685-98bb1d122ed5/collection/25135861-e675a9ea-05eb-40c4-95c3-2f8bd7be52e8?action=share&source=collection_link&creator=25135861"
+    },
+    "item": [
+        {
+            "name": "Generate Endpoint",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"prompt\": \"What is FastAPI?\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://127.0.0.1:8000/generate",
+                    "protocol": "http",
+                    "host": [
+                        "127",
+                        "0",
+                        "0",
+                        "1"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "generate"
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
